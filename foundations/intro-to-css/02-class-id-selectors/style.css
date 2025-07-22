@@ -1,0 +1,27 @@
+
+.odd {
+    background: rgb(252, 151, 168);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+#num2 {
+    color: blue;
+    font-size: 36px;
+}
+
+#num4 {
+    background: rgb(153, 226, 153);
+    font-size: 24px;
+    font-weight: bold;
+} 
+.num3 {
+    font-size: 24px;
+    background: red;
+}
+/*
+    Just wanted to talk about my second exercise for the class.
+        I used the class selector to style the odd-numbered paragraphs.
+        I also used the ID selector to style number 2 and number 4.
+        Number 3 has 2 classes and I found out a neat trick.
+            Depending on which class is listed first,
+            the styles will be applied in that oder.
+*/
