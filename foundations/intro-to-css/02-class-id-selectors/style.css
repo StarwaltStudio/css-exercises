@@ -3,7 +3,7 @@
     background: rgb(252, 151, 168);
     font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
 }
-#num2 {
+.num2 {
     color: blue;
     font-size: 36px;
 }
