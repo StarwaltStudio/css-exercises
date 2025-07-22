@@ -1,0 +1,12 @@
+/* Exercise 3: Grouping Selectors */
+.doorA {
+    background: black;
+    color: white;
+}
+.doorB {
+    background: yellow;
+}
+.doorA, .doorB {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';;
+}
