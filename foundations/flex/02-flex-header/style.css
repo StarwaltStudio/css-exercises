@@ -1,20 +1,31 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
-  color: tomato;
+  font-family:'Times New Roman', Times, serif;
   background: white;
+  color: tomato;
   padding: 4px 32px;
+  justify-content: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
+
 
 a {
   font-size: 22px;
@@ -23,3 +34,4 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+/* Flex Header */
